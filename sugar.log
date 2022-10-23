@@ -1,2 +1,2 @@
-{"v":0,"name":"sugar","msg":"Lend me some sugar, I am your neighbor.","level":30,"hostname":"DESKTOP-Q1S29S4","pid":20404,"time":"2022-10-23T11:29:45.6473326Z","target":"sugar","line":116,"file":"src/main.rs"}
-{"v":0,"name":"sugar","msg":"MissingFileError(\"config.json\")","level":50,"hostname":"DESKTOP-Q1S29S4","pid":20404,"time":"2022-10-23T11:29:45.6487339Z","target":"sugar_cli::config::parser","line":21,"file":"src\\config\\parser.rs"}
+{"v":0,"name":"sugar","msg":"Lend me some sugar, I am your neighbor.","level":30,"hostname":"DESKTOP-Q1S29S4","pid":15748,"time":"2022-10-23T12:01:55.5292153Z","target":"sugar","line":116,"file":"src/main.rs"}
+{"v":0,"name":"sugar","msg":"Failed to read keypair file: ./wallet.json, The system cannot find the file specified. (os error 2)","level":50,"hostname":"DESKTOP-Q1S29S4","pid":15748,"time":"2022-10-23T12:01:55.5301031Z","target":"sugar_cli::setup","line":53,"file":"src\\setup.rs"}
