@@ -36,6 +36,9 @@
     "lint:fix": "prettier --write 'src/**/*.{ts,tsx}' && eslint --fix 'src/**/*.{ts,tsx}'",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy:ar": "yarn export && arweave deploy-dir ../../build/web --key-file",
+"deploy:gh": "yarn export && gh-pages -d ../../build/web --repo https://github.dev/an7ana5/candy-machine-ui -t true",
+"deploy": "yarn build && yarn deploy:gh",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
