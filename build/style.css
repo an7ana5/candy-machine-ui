@@ -8,13 +8,14 @@
 }
 
 .header {
+    text-decoration-color: blue;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .the-person {
     text-align: justify;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 20px;
     margin-bottom: 20px;
 }

@@ -1,0 +1,194 @@
+Html Webpack Plugin:
+<pre>
+  Error: html-webpack-plugin could not minify the generated output.
+  In production mode the html minifcation is enabled by default.
+  If you are not generating a valid html output please disable it manually.
+  You can do so by adding the following setting to your HtmlWebpackPlugin config:
+  |
+  |    minify: false
+  |
+  See https://github.com/jantimon/html-webpack-plugin#options for details.
+  For parser dedicated bugs please create an issue here:
+  https://danielruf.github.io/html-minifier-terser/
+  Parse Error: <link rel="stylesheet" href="style.css" <!-- Notice the use of  in the tags above. It will be replaced 
+      with the URL of the `public` folder during the build. Only files inside the `public` folder can be referenced from 
+      the HTML. Unlike "/favicon.ico" or "favicon.ico" , "/favicon.ico" will work correctly both with 
+      client-side routing and a non-root public URL. Learn how to configure a non-root public URL by running `npm run 
+      build`. --> 
+    <title>NFT Mint</title> 
+  <link href="/static/css/main.f8480e21.chunk.css" rel="stylesheet"></head> 
+  <body> 
+    <!-- navbar --> 
+    <nav class="navbar navbar-expand-lg text-light "> 
+      <div class="container"> 
+        <a class="navbar-brand" href="#"> 
+          <img src="assets/nav-icon2.png" width="50" height="50" alt="" srcset=""> 
+        </a> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> 
+          <span class="navbar-toggler-icon"></span> 
+        </button> 
+        <div class="collapse navbar-collapse" id="navbarNav"> 
+          <ul class="navbar-nav ms-auto"> 
+            <li class="nav-item"> 
+              <a class="nav-link" href="index.html">Home</a> 
+            <li class="nav-item"> 
+              <a class="nav-link" href="https://www.solaneyes.com/address/vUpNZBaAkZbt8ye8AK519GJjT25Svd9ZdxsCAkfGTKp?cluster  =devnet">Marketplace</a> 
+            </li> 
+          </ul> 
+        </div> 
+      </div> 
+    </nav> 
+    <!-- header --> 
+    <div class="header container"> 
+      <h1 class="text-center"> Surreal NFT Evolution </h1> 
+      <img src="assets/Group 18 (1).png" class="w-100"> 
+    </div> 
+    <!--The Person--> 
+    <div class="container the-person"> 
+      <div class="row"> 
+        <div class="col-sm-6"> 
+          <h4 class="text-heading">The Person</h4> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis platea urna vestibulum amet. Iaculis vel quam 
+            sed mattis arcu urna, ut et in. Tincidunt ultrices lacinia amet enim. Ornare mauris ut arcu pulvinar volutpat 
+            ornare cursus. Morbi nulla gravida interdum vel diam. 
+            Ultricies neque neque et dictum. Augue augue lobortis scelerisque aenean. Vitae scelerisque ultricies dolor 
+            non cursus. Phasellus integer scelerisque fringilla suspendisse augue. Viverra platea habitasse nullam aliquet 
+            in metus, dapibus pharetra faucibus. Facilisi id faucibus consectetur quam porta consequat vestibulum non 
+            aliquet. Arcu pretium vulputate consequat vulputate volutpat, dictumst. Tincidunt arcu egestas interdum eu 
+            volutpat. Tristique vitae justo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis platea urna 
+            vestibulum amet. Iaculis vel quam sed mattis arcu urna, ut et in. Tincidunt ultrices lacinia amet enim. Ornare 
+            mauris ut arcu pulvinar volutpat ornare cursus. Morbi nulla gravida interdum vel diam. 
+            Ultricies neque neque et dictum. Augue augue lobortis scelerisque aenean. Vitae scelerisque ultricies dolor 
+            non cursus. Phasellus integer scelerisque fringilla suspendisse augue. Viverra platea habitasse nullam aliquet 
+            in metus, dapibus pharetra faucibus. Facilisi id faucibus consectetur quam porta consequat vestibulum non 
+            aliquet. Arcu pretium vulputate consequat vulputate volutpat, dictumst. Tincidunt arcu egestas interdum eu 
+            volutpat. Tristique vitae justo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis platea urna 
+            vestibulum amet. Iaculis vel quam sed mattis arcu urna, ut et in. Tincidunt ultrices lacinia amet enim. Ornare 
+            mauris ut arcu pulvinar volutpat ornare cursus. Morbi nulla gravida interdum vel diam. 
+          </p> 
+        </div> 
+        <div class="col-sm-6"> 
+          <div class="float-end"> 
+            <img src="assets/Group.png" class="w-100" alt="" srcset=""> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+    <!--The Component--> 
+    <div class="container the-person"> 
+      <div class="row"> 
+        <div class="col-sm-6"> 
+          <div class="float-start"> 
+            <img src="assets/components.png" alt="" srcset="" class="w-100"> 
+          </div> 
+        </div> 
+        <div class="col-sm-6"> 
+          <h4 class="text-heading">The Component</h4> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis platea urna vestibulum amet. Iaculis vel quam 
+            sed mattis arcu urna, ut et in. Tincidunt ultrices lacinia amet enim. Ornare mauris ut arcu pulvinar volutpat 
+            ornare cursus. Morbi nulla gravida interdum vel diam. 
+            Ultricies neque neque et dictum. Augue augue lobortis scelerisque aenean. Vitae scelerisque ultricies dolor 
+            non cursus. Phasellus integer scelerisque fringilla suspendisse augue. Viverra platea habitasse nullam aliquet 
+            in metus, dapibus pharetra faucibus. Facilisi id faucibus consectetur quam porta consequat vestibulum non 
+            aliquet. Arcu pretium vulputate consequat vulputate volutpat, dictumst. Tincidunt arcu egestas interdum eu 
+            volutpat. Tristique vitae justo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis platea urna 
+            vestibulum amet. Iaculis vel quam sed mattis arcu urna, ut et in. Tincidunt ultrices lacinia amet enim. Ornare 
+            mauris ut arcu pulvinar volutpat ornare cursus. Morbi nulla gravida interdum vel diam. 
+            Ultricies neque neque et dictum. Augue augue lobortis scelerisque aenean. Vitae scelerisque ultricies dolor 
+            non cursus. Phasellus integer scelerisque fringilla suspendisse augue. Viverra platea habitasse nullam aliquet 
+            in metus, dapibus pharetra faucibus. Facilisi id faucibus consectetur quam porta consequat vestibulum non 
+            aliquet. Arcu pretium vulputate consequat vulputate volutpat, dictumst. Tincidunt arcu egestas interdum eu 
+            volutpat. Tristique vitae justo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis platea urna 
+            vestibulum amet. Iaculis vel quam sed mattis arcu urna, ut et in. Tincidunt ultrices lacinia amet enim. Ornare 
+            mauris ut arcu pulvinar volutpat ornare cursus. Morbi nulla gravida interdum vel diam.</p> 
+        </div> 
+      </div> 
+    </div> 
+    <!--Roadmap--> 
+    <div class="container roadmap"> 
+      <h4 class="text-heading text-center mb-5">NFT Roadmap</h4> 
+      <p> 
+        <span>Attributes</span><br> 
+        The 5000 NFTs will be updated with all their attributes visible on Phantom and rarity rank displayed on our 
+        website 
+      </p> 
+      <p> 
+        <span>Event</span><br> 
+        Competition between the NFT holders with special prizes for the winners. 
+      </p> 
+      <p> 
+        <span>Merch</span><br> 
+        Exclusive NFT Merch with limited edition for NFT holders 
+      </p> 
+      <p> 
+        <span>Marketplace</span><br> 
+        New marketplace will be released for Asset trading 
+      </p> 
+      <p> 
+        <span>Coming soon</span><br> 
+        More details coming soon... 
+      </p> 
+    </div> 
+    <!--Minting--> 
+    <noscript>You need to enable JavaScript to run this app.</noscript> 
+    <div class="container"> 
+      <h4 class="text-heading text-center mb-5">Mint your NFTs</h4> 
+      <div id="root"></div> 
+    </div> 
+    <!--community--> 
+    <div class="container community"> 
+      <h4 class="text-heading text-center mb-5">Community Wallet</h4> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis platea urna vestibulum amet. Iaculis vel quam sed 
+        mattis arcu urna, ut et in. Tincidunt ultrices lacinia amet enim. Ornare mauris ut arcu pulvinar volutpat ornare 
+        cursus. Morbi nulla gravida interdum vel diam. 
+        Ultricies neque neque et dictum. Augue augue lobortis scelerisque aenean. Vitae scelerisque ultricies dolor non 
+        cursus. Phasellus integer scelerisque fringilla suspendisse augue. Viverra platea habitasse nullam aliquet in 
+        metus, 
+        dapibus pharetra faucibus. Facilisi id faucibus consectetur quam porta consequat vestibulum non aliquet. Arcu 
+        pretium vulputate consequat vulputate volutpat, dictumst. Tincidunt arcu egestas interdum eu volutpat. Tristique 
+        vitae justo. 
+      </p> 
+    </div> 
+    <!--footer--> 
+    <footer> 
+      <div class="container"> 
+        <div class="row text-center"> 
+          <div class="col-sm-4"> 
+            <p><i class="fab fa-twitter"></i> &nbsp; Twitter</p> 
+          </div> 
+          <div class="col-sm-4"> 
+            <p><i class="fab fa-discord"></i> &nbsp; Discord</p> 
+          </div> 
+          <div class="col-sm-4"> 
+            <p><i class="fab fa-telegram"></i> &nbsp; Telegram</p> 
+          </div> 
+        </div> 
+      </div> 
+  <script>!function(e){function r(r){for(var n,i,a=r[0],c=r[1],l=r[2],s=0,p=[];s<a.length;s++)i=a[s],Object.prototype.hasOwnP  roperty.call(o,i)&&o[i]&&p.push(o[i][0]),o[i]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(f&&f(  r);p.length;)p.shift()();return u.push.apply(u,l||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,a=  1;a<t.length;a++){var c=t[a];0!==o[c]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(  r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}  i.e=function(e){var r=[],t=o[e];if(0!==t)if(t)r.push(t[2]);else{var n=new Promise((function(r,n){t=o[e]=[r,n]}));r.push(t[2  ]=n);var u,a=document.createElement("script");a.charset="utf-8",a.timeout=120,i.nc&&a.setAttribute("nonce",i.nc),a.src=func  tion(e){return i.p+"static/js/"+({}[e]||e)+"."+{3:"2de0e398"}[e]+".chunk.js"}(e);var c=new Error;u=function(r){a.onerror=a.  onload=null,clearTimeout(l);var t=o[e];if(0!==t){if(t){var n=r&&("load"===r.type?"missing":r.type),u=r&&r.target&&r.target.  src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,t[1](c)}o[e]=void   0}};var l=setTimeout((function(){u({type:"timeout",target:a})}),12e4);a.onerror=a.onload=u,document.head.appendChild(a)}ret  urn Promise.all(r)},i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=functio  n(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.d  efineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e  .__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"s  tring"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esMod  ule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasO  wnProperty.call(e,r)},i.p="/",i.oe=function(e){throw console.error(e),e};var a=this["webpackJsonpcandy-machine-ui"]=this["w  ebpackJsonpcandy-machine-ui"]||[],c=a.push.bind(a);a.push=r,a=a.slice();for(var l=0;l<a.length;l++)r(a[l]);var f=c;t()}([])  ;
+  //# sourceMappingURL=runtime-main.1bfb2381.js.map</script><script src="/static/js/2.321894b9.chunk.js"></script><script src  ="/static/js/main.e3b1d5ea.chunk.js"></script></body> 
+  </footer> 
+  </html>
+  
+  - htmlparser.js:244 new HTMLParser
+    [candy-machine-ui]/[html-webpack-plugin]/[html-minifier-terser]/src/htmlparser.js:244:13
+  
+  - htmlminifier.js:993 minify
+    [candy-machine-ui]/[html-webpack-plugin]/[html-minifier-terser]/src/htmlminifier.js:993:3
+  
+  - htmlminifier.js:1354 Object.exports.minify
+    [candy-machine-ui]/[html-webpack-plugin]/[html-minifier-terser]/src/htmlminifier.js:1354:16
+  
+  - index.js:1013 HtmlWebpackPlugin.minifyHtml
+    [candy-machine-ui]/[html-webpack-plugin]/index.js:1013:46
+  
+  - index.js:429 HtmlWebpackPlugin.postProcessHtml
+    [candy-machine-ui]/[html-webpack-plugin]/index.js:429:40
+  
+  - index.js:254 
+    [candy-machine-ui]/[html-webpack-plugin]/index.js:254:25
+  
+  - task_queues:96 processTicksAndRejections
+    node:internal/process/task_queues:96:5
+  
+</pre>
